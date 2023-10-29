@@ -1,0 +1,65 @@
+/* global */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playpen Sans', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playpen Sans', cursive;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    line-height: 2;
+}
+/* utilities */
+.container{
+    /* width: 80%;
+    margin: 10px auto; */
+}
+.flex-container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.button{
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+}
+/* header */
+.site-header{
+    background-image: url(../images/img/header.jpg);
+    height: 400px;
+    /* text-align: center; */
+}
+.site-header h1{
+    color: white;
+}  
+.site-header p{
+    color: white;
+}
+.site-header a{
+    /* margin-right: 20px; */
+}
+/* about us */
+
+/* houses */
+
+.houses-item{
+    background-color: #d4d4d4;
+}
+.houses-item-text{
+    padding: 10px 50px;
+}
+
